@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Listing Quality Analyzer</title>
+    <style>
+        body { width: 250px; font-family: Arial, sans-serif; margin: 10px; }
+        h2 { font-size: 1.2em; margin-top: 0; }
+        .score { font-size: 1.5em; font-weight: bold; margin: 10px 0; }
+        .strength, .weakness { margin: 8px 0; }
+        .strength { color: green; }
+        .weakness { color: red; }
+        button { width: 100%; padding: 8px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Listing Quality</h2>
+    <div id="score">--</div>
+    <div>Strengths: <span id="strengths"></span></div>
+    <div>Weaknesses: <span id="weaknesses"></span></div>
+    <button id="analyzeBtn">Analyze Current Page</button>
+    <script src="popup.js"></script>
+</body>
+</html>

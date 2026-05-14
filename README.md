@@ -4,7 +4,7 @@ A Chrome extension that analyzes Amazon product listings for quality and provide
 
 ## Features
 
-- Analyzes Amazon product listings on amazon.com, amazon.co.uk, amazon.de, amazon.fr, and amazon.co.jp
+- Analyzes Amazon product listings on amazon.com, amazon.co.uk, amazon.de, amazon.fr, amazon.co.jp, and amazon.ca
 - Provides a quality score with breakdown of strengths and weaknesses
 - Simple popup interface with one-click analysis
 - Works on active Amazon product pages

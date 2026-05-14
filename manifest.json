@@ -12,7 +12,8 @@
     "*://www.amazon.co.uk/*",
     "*://www.amazon.de/*",
     "*://www.amazon.fr/*",
-    "*://www.amazon.co.jp/*"
+    "*://www.amazon.co.jp/*",
+    "*://www.amazon.ca/*"
   ],
   "action": {
     "default_popup": "popup.html"
@@ -24,7 +25,8 @@
         "*://www.amazon.co.uk/*",
         "*://www.amazon.de/*",
         "*://www.amazon.fr/*",
-        "*://www.amazon.co.jp/*"
+        "*://www.amazon.co.jp/*",
+        "*://www.amazon.ca/*"
       ],
       "js": ["contentScript.js"],
       "run_at": "document_idle"

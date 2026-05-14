@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'www.amazon.co.uk',
       'www.amazon.de',
       'www.amazon.fr',
-      'www.amazon.co.jp'
+      'www.amazon.co.jp',
+      'www.amazon.ca'
     ];
     const url = new URL(tab.url);
     const isAmazon = amazonDomains.includes(url.hostname);
